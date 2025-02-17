@@ -1,0 +1,230 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: cadetblue;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-bar h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar ul li {
+    display: inline;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-bar ul li a:hover {
+    color: #ffd700;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.bio h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.bio h1 span {
+    color: #ffd700;
+}
+
+.bio h6 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #f8f9fa;
+}
+
+.btn button {
+    margin-top: 15px;
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: black;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.icons a:hover {
+    color: #ffd700;
+}
+
+#Aboutme {
+    padding: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#Aboutme h2 {
+    font-size: 28px;
+    color: white;
+}
+
+#Aboutme p {
+    font-size: 18px;
+    color: #f8f9fa;
+}
+
+#skills {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#skills h2 {
+    font-size: 28px;
+    color: white;
+}
+
+#skills div {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+#skills i {
+    font-size: 50px;
+    color: #ffd700;
+}
+
+#skills p {
+    font-size: 18px;
+    color: white;
+}
+
+
+#education {
+    text-align: center;
+    padding: 50px;
+}
+
+#education h2,
+#education h4,
+#education h3,
+#education span {
+    font-size: 20px;
+    color: white;
+}
+
+#Contact {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#Contact h2 {
+    font-size: 28px;
+    color: white;
+}
+
+#Contact p {
+    font-size: 18px;
+    color: #f8f9fa;
+}
+
+#Contact i {
+    margin-right: 10px;
+    color: #ffd700;
+}
+
+#projects {
+    text-align: center;
+    padding: 50px;
+}
+
+#projects h2 {
+    font-size: 28px;
+    color: white;
+}
+
+#projects p {
+    font-size: 18px;
+    color: #f8f9fa;
+}
+
+.details {
+    text-align: center;
+    padding: 50px;
+}
+
+.details label {
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+.details input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
